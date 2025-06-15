@@ -35,9 +35,8 @@ A FastAPI application that predicts the category of uploaded images.
 **Clone the repository:**
 
 ```bash
-git clone https://github.com/vcse59/GenerativeAI.git
-cd GenerativeAI
-git checkout feature-cnn-model-training-deployment
+git clone https://github.com/vcse59/Generative-AI-MCP-Application.git
+cd Generative-AI-MCP-Application
 ```
 
 ### Native Setup

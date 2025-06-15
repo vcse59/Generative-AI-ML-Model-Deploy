@@ -53,6 +53,7 @@ history = model.fit(
     epochs=10
 )
 
+'''
 import matplotlib.pyplot as plt
 
 plt.plot(history.history['accuracy'], label='train acc')
@@ -60,10 +61,10 @@ plt.plot(history.history['val_accuracy'], label='val acc')
 plt.legend()
 plt.title('Accuracy over Epochs')
 plt.show()
+'''
 
 # Save model
 model.save(os.path.join('model-training', 'models', 'model.h5'))
-
 
 # Example of using the trained model to predict a single image
 
